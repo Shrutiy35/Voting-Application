@@ -32,21 +32,21 @@ https://voting-application-2.onrender.com
 ## Candidates
 
 ### Get Candidates
-- `GET /candidates`: Get the list of candidates
+- `GET /candidate`: Get the list of candidates
 
 ### Add Candidate
-- `POST /candidates`: Add a new candidate (Admin only)
+- `POST /candidate`: Add a new candidate (Admin only)
 
 ### Update Candidate
-- `PUT /candidates/:id`: Update a candidate by ID (Admin only)
+- `PUT /candidate/:id`: Update a candidate by ID (Admin only)
 
 ### Delete Candidate
-- `DELETE /candidates/:id`: Delete a candidate by ID (Admin only)
+- `DELETE /candidate/:id`: Delete a candidate by ID (Admin only)
 
 ## Voting
 
 ### Get Vote Count
-- `GET /candidates/vote/count`: Get the count of votes for each candidate
+- `GET /candidate/vote/count`: Get the count of votes for each candidate
 
 ### Vote for Candidate
-- `POST /candidates/vote/:id`: Vote for a candidate (User only)
+- `POST /candidate/vote/:id`: Vote for a candidate (User only)
